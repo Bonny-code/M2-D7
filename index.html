@@ -74,21 +74,35 @@
           background-color: aqua;
       }
 
-      .col-4{
-          background-color: red;
+      nav.nav > a{
+        color: blue !important;
       }
-       p.lead a{
-           background-color: aqua;
-       }
-     
-     div:first-of-type + div{
-         background-color: blue;
-     }
 
-     a[class~="p-2"]{
-         color: cadetblue;
-     }
+      .jumbotron .col-md-6 p:last-of-type a{
+        color: red !important;
+      }
+      main .blog-main > h3 + .blog-post{
+        color: blueviolet !important;
+      }
+      nav.nav > a:nth-child(2n){
+        color: chocolate !important;
+      }
 
+      main .blog-main .blog-post :last-of-type{
+     color: cyan !important;
+      }
+     main .blog-sidebar div:nth-child(2) > ol > li{
+       color: red !important;
+     }
+     main .blog-main .blog-post:nth-child(3) > h2 > p > a{
+       color: green !important;
+     }
+     p:last-of-type > a {
+       color:royalblue !important;
+     }
+     footer{
+       background-color: seagreen !important;
+     }
 
 
     </style>
